@@ -31,6 +31,10 @@ Partial Class Form1
         mnuInheritance = New ToolStripMenuItem()
         mnuPolymorphism = New ToolStripMenuItem()
         ToolStripMenuItem4 = New ToolStripMenuItem()
+        WK3A = New ToolStripMenuItem()
+        WK3B = New ToolStripMenuItem()
+        WK3B1 = New ToolStripMenuItem()
+        WK3C = New ToolStripMenuItem()
         ToolStripMenuItem5 = New ToolStripMenuItem()
         ToolStripMenuItem6 = New ToolStripMenuItem()
         ToolStripMenuItem7 = New ToolStripMenuItem()
@@ -52,6 +56,11 @@ Partial Class Form1
         mnuExit = New ToolStripMenuItem()
         mnuSBIT2E = New ToolStripMenuItem()
         Pangilinan = New Label()
+        WK4A = New ToolStripMenuItem()
+        WK4C = New ToolStripMenuItem()
+        WK4B = New ToolStripMenuItem()
+        WK4B1 = New ToolStripMenuItem()
+        WK4B2 = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -87,35 +96,62 @@ Partial Class Form1
         ' mnuClassesAndObjects
         ' 
         mnuClassesAndObjects.Name = "mnuClassesAndObjects"
-        mnuClassesAndObjects.Size = New Size(178, 22)
+        mnuClassesAndObjects.Size = New Size(180, 22)
         mnuClassesAndObjects.Text = "Classes and Objects"
         ' 
         ' mnuEncapsulation
         ' 
         mnuEncapsulation.Name = "mnuEncapsulation"
-        mnuEncapsulation.Size = New Size(178, 22)
+        mnuEncapsulation.Size = New Size(180, 22)
         mnuEncapsulation.Text = "Encapsulation"
         ' 
         ' mnuInheritance
         ' 
         mnuInheritance.Name = "mnuInheritance"
-        mnuInheritance.Size = New Size(178, 22)
+        mnuInheritance.Size = New Size(180, 22)
         mnuInheritance.Text = "Inheritance"
         ' 
         ' mnuPolymorphism
         ' 
         mnuPolymorphism.Name = "mnuPolymorphism"
-        mnuPolymorphism.Size = New Size(178, 22)
+        mnuPolymorphism.Size = New Size(180, 22)
         mnuPolymorphism.Text = "Polymorphism"
         ' 
         ' ToolStripMenuItem4
         ' 
+        ToolStripMenuItem4.DropDownItems.AddRange(New ToolStripItem() {WK3A, WK3B, WK3C})
         ToolStripMenuItem4.Name = "ToolStripMenuItem4"
         ToolStripMenuItem4.Size = New Size(384, 22)
         ToolStripMenuItem4.Text = "3) Getting Started with Microsoft Visual Basic.net"
         ' 
+        ' WK3A
+        ' 
+        WK3A.Name = "WK3A"
+        WK3A.Size = New Size(208, 22)
+        WK3A.Text = "Getting Started"
+        ' 
+        ' WK3B
+        ' 
+        WK3B.DropDownItems.AddRange(New ToolStripItem() {WK3B1})
+        WK3B.Name = "WK3B"
+        WK3B.Size = New Size(208, 22)
+        WK3B.Text = "Programming Languages"
+        ' 
+        ' WK3B1
+        ' 
+        WK3B1.Name = "WK3B1"
+        WK3B1.Size = New Size(180, 22)
+        WK3B1.Text = "Keywords"
+        ' 
+        ' WK3C
+        ' 
+        WK3C.Name = "WK3C"
+        WK3C.Size = New Size(208, 22)
+        WK3C.Text = "Exploring the IDE"
+        ' 
         ' ToolStripMenuItem5
         ' 
+        ToolStripMenuItem5.DropDownItems.AddRange(New ToolStripItem() {WK4A, WK4B, WK4C})
         ToolStripMenuItem5.Name = "ToolStripMenuItem5"
         ToolStripMenuItem5.Size = New Size(384, 22)
         ToolStripMenuItem5.Text = "4) Planning Applications and Designing Interfaces"
@@ -243,10 +279,42 @@ Partial Class Form1
         Pangilinan.TabIndex = 1
         Pangilinan.Text = "Pangilinan, Joseph Benjamin D. Project"
         ' 
+        ' WK4A
+        ' 
+        WK4A.Name = "WK4A"
+        WK4A.Size = New Size(188, 22)
+        WK4A.Text = "VB.Net Basic Controls"
+        ' 
+        ' WK4C
+        ' 
+        WK4C.Name = "WK4C"
+        WK4C.Size = New Size(188, 22)
+        WK4C.Text = "Basic Controls"
+        ' 
+        ' WK4B
+        ' 
+        WK4B.DropDownItems.AddRange(New ToolStripItem() {WK4B1, WK4B2})
+        WK4B.Name = "WK4B"
+        WK4B.Size = New Size(188, 22)
+        WK4B.Text = "Control Properties"
+        ' 
+        ' WK4B1
+        ' 
+        WK4B1.Name = "WK4B1"
+        WK4B1.Size = New Size(164, 22)
+        WK4B1.Text = "Control Methods"
+        ' 
+        ' WK4B2
+        ' 
+        WK4B2.Name = "WK4B2"
+        WK4B2.Size = New Size(164, 22)
+        WK4B2.Text = "Control Events"
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.Control
         ClientSize = New Size(800, 450)
         Controls.Add(Pangilinan)
         Controls.Add(MenuStrip1)
@@ -289,5 +357,14 @@ Partial Class Form1
     Friend WithEvents mnuInheritance As ToolStripMenuItem
     Friend WithEvents mnuPolymorphism As ToolStripMenuItem
     Friend WithEvents Pangilinan As Label
+    Friend WithEvents WK3A As ToolStripMenuItem
+    Friend WithEvents WK3B As ToolStripMenuItem
+    Friend WithEvents WK3B1 As ToolStripMenuItem
+    Friend WithEvents WK3C As ToolStripMenuItem
+    Friend WithEvents WK4A As ToolStripMenuItem
+    Friend WithEvents WK4B As ToolStripMenuItem
+    Friend WithEvents WK4B1 As ToolStripMenuItem
+    Friend WithEvents WK4B2 As ToolStripMenuItem
+    Friend WithEvents WK4C As ToolStripMenuItem
 
 End Class

@@ -32,6 +32,38 @@
         Week3.Show()
     End Sub
 
+    Private Sub WK3A_Click(sender As Object, e As EventArgs) Handles WK3A.Click
+        Week3G.Show()
+    End Sub
+
+    Private Sub WK3B_Click(sender As Object, e As EventArgs) Handles WK3B.Click
+        Week3P.Show()
+    End Sub
+
+    Private Sub WK3B1_Click(sender As Object, e As EventArgs) Handles WK3B1.Click
+        Week3PS.Show()
+    End Sub
+    Private Sub WK3C_Click(sender As Object, e As EventArgs) Handles WK3C.Click
+        Week3E.Show()
+    End Sub
+
+    Private Sub WK4A_Click(sender As Object, e As EventArgs) Handles WK4A.Click
+        Week4V.Show()
+    End Sub
+    Private Sub WK4B_Click(sender As Object, e As EventArgs) Handles WK4B.Click
+        Week4CP.Show()
+    End Sub
+    Private Sub WK4B1_Click(sender As Object, e As EventArgs) Handles WK4B1.Click
+        Week4CM.Show()
+    End Sub
+    Private Sub WK4B2_Click(sender As Object, e As EventArgs) Handles WK4B2.Click
+        Week4CE.Show()
+    End Sub
+
+    Private Sub WK4C_Click(sender As Object, e As EventArgs) Handles WK4C.Click
+        Week4BC.Show()
+    End Sub
+
     Private Sub ToolStripMenuItem5_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem5.Click
         Week4.Show()
     End Sub
